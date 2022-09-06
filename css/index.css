@@ -1,12 +1,14 @@
-.section-1{
-    background: transparent url('../images/Fondo.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+body{
+    background-image: url('../images/Fondo.png') ;
+    background-attachment: fixed;  
 }
 .defuminado{
     background: transparent linear-gradient(180deg, #2D2A2689 0%, #2D2A26 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-
+.section-2{
+    background-color: #FFFFFF;
+}
 .text-orange{
     color: #F15D3B;
 }
@@ -41,7 +43,7 @@
     color: black;
 }
 .title{
-    font: normal normal 300 63px/91px 'DINPro';
+    font: normal normal 300 44px/70px 'DINPro';
     letter-spacing: 0px;
     opacity: 1;
     text-align: left;
@@ -53,7 +55,7 @@
 }
 
 .title-2{
-    font: normal normal 300 46px/59px DINPro;
+    font: normal normal 300 46px/59px 'DINPro';
     letter-spacing: 0px;
     opacity: 1;
 }
@@ -102,7 +104,6 @@
     box-shadow: 0px 0px 20px #4ace2998;
 }
 .float:hover img{
-    margin-left: 30%;
     filter: invert(100%) brightness(40%) sepia(100%) hue-rotate(100deg) saturate(1000%) contrast(0.8) !important;
 }
 
@@ -143,3 +144,7 @@
     box-shadow: 0px 0px 15px #f15c3b9a;
     color: #FFFFFF;
 }
+.modal-backdrop {
+    background: #DEDEDE  0% 0% no-repeat padding-box !important;
+    backdrop-filter: blur(30px) !important;
+   }
